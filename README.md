@@ -22,7 +22,7 @@ e abra http://localhost:8000
 
 1. GitHub: `repositório: github.com/israelfelipe-dev/bodas-logos`
 2. Vercel: Add New > Project > importar o repositório. Framework Preset: Other, Build Command vazio, Output Directory `./`.
-3. Cada push em `main` publica sozinho. Ao ter a URL final, troque `https://bodas-logos.vercel.app/` no `index.html` (canonical, og:url, og:image, twitter:image e o JSON-LD).
+3. Cada push em `main` publica sozinho. Ao ter a URL final, troque `https://viagemdasbodas.logostourviagens.com.br/` no `index.html` (canonical, og:url, og:image, twitter:image e o JSON-LD).
 
 ## Onde mudar
 
