@@ -395,6 +395,7 @@ blockquote footer{font-size:.98rem;opacity:.8}
 .p-opt b{display:block;font-family:var(--sans);font-weight:300;font-size:clamp(2.2rem,3.8vw,3.2rem);line-height:1;letter-spacing:-.02em}
 .p-opt b small{font-size:.45em;opacity:.8;letter-spacing:0}
 .p-opt span{display:block;margin-top:10px;font-size:1rem;opacity:.85}
+.p-note{margin:clamp(20px,2.4vw,32px) 0 0;max-width:62ch;font-size:1rem;opacity:.85;padding-left:16px;border-left:2px solid var(--gold)}
 .p-vagas{display:flex;align-items:center;gap:18px}
 .p-vagas .ring{width:78px;height:78px;flex:none;color:var(--gold)}
 .p-vagas .ring circle{fill:none;stroke:currentColor;stroke-width:1.5}
@@ -821,7 +822,7 @@ html.anim .rv{opacity:0;transform:translateY(28px)}
       <div class="p-main rv">
         <span class="tag">À vista no Pix</span>
         <p class="val"><small>R$</small>2.800</p>
-        <p class="per">por casal, com ônibus e hotel all inclusive</p>
+        <p class="per">por casal, valor promocional, com ônibus e hotel all inclusive</p>
         <ul class="incl">
           <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.2 4.2L19 7"/></svg>Ônibus de Natal ao hotel e de volta</li>
           <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12.5l4.2 4.2L19 7"/></svg>Parada em Porto de Galinhas</li>
@@ -832,7 +833,7 @@ html.anim .rv{opacity:0;transform:translateY(28px)}
         </ul>
       </div>
       <div class="p-side">
-        <div class="p-opt rv"><b>8x <small>de</small> R$ 350</b><span>no Pix ou no boleto, sem juros</span></div>
+        <div class="p-opt rv"><b>8x <small>de</small> R$ 350</b><span>no Pix ou no boleto, sem juros: entrada de R$ 350 + 7 parcelas</span></div>
         <div class="p-opt rv"><b>10x <small>de</small> R$ 300</b><span>no cartão de crédito (R$ 3.000 no total, com a taxa da maquininha)</span></div>
         <div class="p-opt p-vagas rv">
           <svg class="ring" viewBox="0 0 78 78" aria-hidden="true"><circle cx="31" cy="39" r="22"/><circle cx="47" cy="39" r="22"/></svg>
@@ -840,6 +841,7 @@ html.anim .rv{opacity:0;transform:translateY(28px)}
         </div>
       </div>
     </div>
+    <p class="p-note rv">As parcelas vencem todo dia 30, e o pacote precisa estar quitado até 30 de junho de 2027, um mês antes da viagem, por exigência do hotel. Por isso, quem fecha antes consegue dividir em mais vezes.</p>
     <div class="p-cta rv">
       <a class="btn js-wa magnetic" href="#" data-msg="base"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>Garantir nossa vaga pelo WhatsApp</a>
     </div>
@@ -851,14 +853,16 @@ html.anim .rv{opacity:0;transform:translateY(28px)}
   <div class="wrap faq">
     <h2 class="t-lg split">Antes de <em class="hl-turq">fechar.</em></h2>
     <div class="rv">
-      <details><summary>O valor é por pessoa ou por casal?</summary><p>Por casal. São R$ 2.800 à vista no Pix, 8x de R$ 350 no Pix ou no boleto, ou 10x de R$ 300 no cartão.</p></details>
+      <details><summary>O valor é por pessoa ou por casal?</summary><p>Por casal. São R$ 2.800 à vista no Pix, ou 8x de R$ 350 no Pix ou no boleto (entrada de R$ 350 + 7 parcelas), ou 10x de R$ 300 no cartão de crédito, total de R$ 3.000.</p></details>
+      <details><summary>Até quando dá para pagar?</summary><p>As parcelas vencem todo dia 30, e o pacote precisa estar quitado até 30 de junho de 2027, um mês antes da viagem. Essa data é uma exigência do hotel. Quem fecha antes consegue dividir em mais vezes.</p></details>
       <details><summary>O que está incluso?</summary><p>O ônibus de Natal até o hotel e de volta, com parada em Porto de Galinhas, as 2 noites no El Aram Beach Cabo com all inclusive 24 horas, a camiseta com o nome do casal, a plaquinha da boda e a Noite das Bodas.</p></details>
       <details><summary>As bebidas estão inclusas?</summary><p>Sim. Sucos, água, refrigerante e as demais bebidas do cardápio do hotel entram no all inclusive. Ficam de fora só as importadas ou que não estão no cardápio.</p></details>
       <details><summary>O que não está incluso?</summary><p>No hotel: bebidas importadas, lavanderia, telefone e cofre. O frigobar do quarto vem com água mineral. Gastos pessoais na parada de Porto de Galinhas também ficam por conta de cada casal.</p></details>
       <details><summary>A que horas é a saída e onde é o embarque?</summary><p>A saída de Natal é na sexta, 30 de julho, às 2h da manhã. O ponto de embarque é informado aos casais confirmados.</p></details>
       <details><summary>Que horas a gente chega no hotel?</summary><p>O check-in é às 14h de sexta, depois da manhã em Porto de Galinhas, e o almoço já é no hotel. A saída é no domingo, depois do almoço, com retorno a Natal às 13h.</p></details>
       <details><summary>Quais documentos levar?</summary><p>RG ou CNH dos dois. O hotel entrega a pulseira do all inclusive no check-in, e ela fica no braço o fim de semana inteiro.</p></details>
-      <details><summary>Como garanto a nossa vaga?</summary><p>Chama o Edson no WhatsApp pelo botão desta página. Ele confirma a vaga e combina a forma de pagamento com vocês.</p></details>
+      <details><summary>Como garanto a nossa vaga?</summary><p>Chama o Edson no WhatsApp pelo botão desta página. A vaga fica garantida com o pagamento da entrada, que vai direto para o hotel como sinal do contrato.</p></details>
+      <details><summary>E se a gente precisar desistir?</summary><p>Se vocês indicarem outro casal para ir no lugar, o valor que já foi pago é devolvido integralmente. Sem um casal no lugar, a devolução é combinada com a Logos Tour, em percentual.</p></details>
     </div>
   </div>
 </section>
