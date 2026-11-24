@@ -1,0 +1,6 @@
+fotos-originais/
+fotos-escolhidas/
+video/
+.DS_Store
+node_modules/
+.vercel
